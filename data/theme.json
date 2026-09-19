@@ -1,0 +1,18 @@
+{
+  "mode": "light",
+  "primary": "#10263D",
+  "accent": "#B99B5B",
+  "secondary": "#C7CCD1",
+  "surface": "#F5F2EA",
+  "paper": "#FFFFFF",
+  "ink": "#17202A",
+  "muted": "#5C6570",
+  "line": "rgba(16, 38, 61, 0.16)",
+  "keywords": [
+    "navy",
+    "platinum",
+    "dark gold",
+    "IP assets",
+    "trust"
+  ]
+}

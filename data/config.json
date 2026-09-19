@@ -1,0 +1,77 @@
+{
+  "slug": "iptrust",
+  "folder": "IPTRUST",
+  "name": "岁知社",
+  "nativeName": "IPTrust",
+  "description": "岁知社 IPTrust 是面向 IP 资产可信管理、品牌源文件与 Agent 协作的中文优先 IP。",
+  "officialWebsite": "",
+  "mainLanguage": "zh",
+  "intro": {
+    "zh": "岁知社 IPTrust 是面向 IP 资产可信管理、品牌源文件与 Agent 协作的中文优先 IP。",
+    "en": "IPTrust is a Chinese-first IP for trusted IP asset stewardship, brand source files, and agent collaboration."
+  },
+  "business": {
+    "zh": "IP 资产管理、信任索引、品牌源文件治理与 Agent 可读协作。",
+    "en": "IP asset stewardship, trust indexing, brand-source governance, and agent-readable collaboration."
+  },
+  "primaryGuide": "",
+  "theme": {
+    "mode": "light",
+    "primary": "#10263D",
+    "accent": "#B99B5B",
+    "secondary": "#C7CCD1",
+    "surface": "#F5F2EA",
+    "paper": "#FFFFFF",
+    "ink": "#17202A",
+    "muted": "#5C6570",
+    "line": "rgba(16, 38, 61, 0.16)",
+    "keywords": [
+      "navy",
+      "platinum",
+      "dark gold",
+      "IP assets",
+      "trust"
+    ]
+  },
+  "classification": {
+    "tracks": {
+      "zh": [
+        "IP 资产治理",
+        "信任索引",
+        "品牌源文件"
+      ],
+      "en": [
+        "IP asset governance",
+        "Trust indexing",
+        "Brand source files"
+      ]
+    },
+    "audiences": {
+      "zh": [
+        "IP 持有人",
+        "品牌管理者",
+        "Agent 团队"
+      ],
+      "en": [
+        "IP owners",
+        "Brand stewards",
+        "Agent teams"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "IP",
+        "信任",
+        "资产",
+        "治理"
+      ],
+      "en": [
+        "IP",
+        "Trust",
+        "Asset",
+        "Governance"
+      ]
+    }
+  },
+  "designSystemUrl": "https://github.com/ksamint/dsys_iptrust"
+}

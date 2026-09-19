@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/ksamint/tableai_designaha",
+  "commit": "17e8486df5cc2896049164fdef9c876e5790897b",
+  "folder": "IPTRUST",
+  "brandApi": "https://apuch.art/api/brands/iptrust.json",
+  "retrievedAt": "2026-09-19T12:57:03.507156+00:00",
+  "files": {
+    "IPTRUST/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "IPTRUST/assets/brand-images/logo-set/1.png.zip": "dee0b19400cf696440406c79a1a6ba4557e6f13abe9811019fe7fe57581ef49a",
+    "IPTRUST/assets/brand-images/logo-set/岁知社logo.zip": "36a00af1e546f4fa00c82234dc666f4f868c319de3dae6fc7ffe2693c4a94a72"
+  }
+}
