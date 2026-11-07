@@ -1,0 +1,3 @@
+# Original Illustrator documents are binary; preserve all supplied source bytes.
+*.ai binary
+IPTRUST/assets/brand-images/logo-set/** -whitespace

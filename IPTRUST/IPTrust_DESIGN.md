@@ -1,120 +1,77 @@
----
-name: 岁知社 IPTrust Design System
-colors:
-  surface: '#F5F2EA'
-  surface-container: '#ECE8DE'
-  paper: '#FFFFFF'
-  on-surface: '#17202A'
-  on-surface-variant: '#5C6570'
-  outline: '#7A828A'
-  outline-variant: '#C7CCD1'
-  primary: '#10263D'
-  on-primary: '#FFFFFF'
-  primary-container: '#E8EDF1'
-  secondary: '#B99B5B'
-  on-secondary: '#17202A'
-  error: '#B42318'
-typography:
-  headline-xl:
-    fontFamily: Noto Sans SC
-    fontSize: 40px
-    fontWeight: '700'
-    lineHeight: '1.2'
-  headline-lg:
-    fontFamily: Noto Sans SC
-    fontSize: 32px
-    fontWeight: '600'
-    lineHeight: '1.3'
-  headline-md:
-    fontFamily: Noto Sans SC
-    fontSize: 24px
-    fontWeight: '600'
-    lineHeight: '1.4'
-  body-lg:
-    fontFamily: Noto Sans SC
-    fontSize: 18px
-    fontWeight: '400'
-    lineHeight: '1.7'
-  body-md:
-    fontFamily: Noto Sans SC
-    fontSize: 16px
-    fontWeight: '400'
-    lineHeight: '1.7'
-  label-sm:
-    fontFamily: Noto Sans SC
-    fontSize: 12px
-    fontWeight: '600'
-    lineHeight: '1.4'
-rounded:
-  sm: 2px
-  DEFAULT: 4px
-  md: 6px
-  full: 9999px
-spacing:
-  unit: 8px
-  xs: 4px
-  sm: 8px
-  md: 16px
-  lg: 24px
-  xl: 40px
-  xxl: 80px
-  container-max: 1200px
----
+# 岁知社 Style Kit（可复用）
 
-# 岁知社 IPTrust 设计规范
+版本：2026-11-07。来源：品牌持有人本次提供的规范与参考素材。本版更新仓库默认视觉方向，取代此前藏青与铂灰的默认方案；历史版本仍可通过 Git 查询。品牌身份沿用 [IPTrust 品牌目录](https://apuch.art/brand?brand=iptrust)，本仓库的更新不会自动回写该网站/API。
 
-> 高楼宾客似曾识，日光底下无新事。
+## 品牌核心
 
-本规范将已发布的品牌主题用于数字产品、品牌资料与 Agent 协作界面。品牌目录/API 是身份与色值来源；本文件提供应用规则，不替代尚未发布的官方设计指南。
+- 品牌名：岁知社。
+- 调性：真实、热爱、利他、有趣；第一梯队实战智慧；拒绝平庸；长期主义。
+- 视觉目标：东方诗意克制 + 西方现代主义精确。
 
-## 1. 品牌定位
+## 色彩系统
 
-岁知社 IPTrust 面向 IP 资产可信管理、信任索引、品牌源文件治理与 Agent 可读协作。体验应表达可信、可考证、易检索与长期维护；清楚展示资产身份、来源、权限与状态。
+| 角色 | 色值 |
+| --- | --- |
+| 主金色 | `#8B7355` / `#8D723F` / `#99834E` |
+| 背景米白 | `#F7F5F0` / `#FAF8F3` |
+| 深炭灰 | `#2D2E30` / `#1A1A1A` |
+| 留白纯白 | `#FFFFFF` |
 
-## 2. 色彩
+复用默认值：金 `#8B7355`、背景 `#F7F5F0`、正文 `#2D2E30`。其余值作为同一系统中的替代色，按单件物料选择。正文优先使用深炭灰；金色用于图形、标志与重点。保留文字与底色的清晰对比。
 
-品牌 API 的精确主题色：
+## 字体风格
 
-| 角色 | 色值 | 用途 |
+- 中文：雅致、克制、类书法或类宋体，字距宽松。
+- 英文：优雅衬线体或干净现代无衬线，诗意分行。
+- 长正文保持可读性，标题与正文分工清楚。Logo 使用原始图形，不用字体重排替代。
+- 未指定唯一字体或授权字体文件；选择项目已有且有使用权的字体。token 中字体栈是技术回退建议，不是新增官方字体指定。
+
+## 视觉语言
+
+- 博物馆级极简，大量留白。
+- 几何形态：圆、三角、水平线、拱门。
+- 柔和渐变与锐利边缘并存。
+- 手绘笔触点缀：有机、粗细变化。
+- 东方诗意克制 + 西方现代主义精确。
+- 单幅优先使用一至两个主要几何形态，围绕一个明确主题组织。文字、形态与笔触各有空间。
+
+## Logo 素材
+
+持有人给出的素材方向：抽象符号图标、竹墨笔触图标、金色笔触图标。原始 Logo 文件完整保存在 [logo-set](assets/brand-images/logo-set/)；参考图与正式 Logo 通过资产清单的 `usage` 区分。
+
+Agent 和设计工具优先使用以下透明背景矢量：
+
+| 版本 | 文件 | 使用建议 |
 | --- | --- | --- |
-| 藏青 | `#10263D` | 品牌结构、标题、导航、重要边界 |
-| 暗金 | `#B99B5B` | 少量强调、当前项与重点数据 |
-| 铂灰 | `#C7CCD1` | 分割线、次级边界与中性状态 |
-| 暖纸 | `#F5F2EA` | 页面底色与大面积画布 |
-| 白 | `#FFFFFF` | 卡片、输入面与反白区域 |
-| 墨色 | `#17202A` | 正文与高可读文字 |
-| 灰色 | `#5C6570` | 辅助文字、说明与元数据 |
+| 深炭黑 | [suizhishe-black.svg](assets/logos/suizhishe-black.svg) | 米白、白色等浅底 |
+| 金色 | [suizhishe-gold.svg](assets/logos/suizhishe-gold.svg) | 需要金色标志时，保持清晰对比 |
+| 白色 | [suizhishe-white.svg](assets/logos/suizhishe-white.svg) | 深色背景 |
 
-- 暖纸与白作为主要表面，形成温和、清晰的资产阅览空间。
-- 藏青承载信息层级和可信结构；暗金只用于需要注意的少量元素。
-- 铂灰用于边界和非活动状态，不用来承载小字号正文。
-- 文字与背景保持清晰对比；不要仅靠颜色表达资产权限、校验结果或风险。
-- 品牌主题没有定义的状态色仅作产品语义使用，不作为品牌主色。
+以上三款由已有黑色 SVG 的矢量路径导出，保持原始造型，去掉底板，分别采用 `#1A1A1A`、`#8B7355`、`#FFFFFF`。这三款是同一标志的色彩版本，并非三个独立图标设计。
 
-## 3. 字体与排版
+原件注意事项：`logo-set/金色/logo_logo.svg` 没有可见图形，已归档但不供使用；`logo-set/蓝色/logo_logo.svg` 含内嵌 PNG，不属于纯矢量。使用上表可用文件。完整来源、文件状态与 SHA-256 见 [资产清单](../data/style-kit-assets.json)。
 
-- 中文优先使用系统可用的 Noto Sans SC；回退到系统无衬线字体。不要因品牌规范引入外部字体依赖。
-- 使用清晰的标题、正文、标签层级；长说明正文行高取 1.6–1.7。
-- 将名称、来源、版本、权限和更新时间等记录元数据保持为易扫描的短行。
-- 中英混排保留原品牌名及资产 ID；不强行翻译文件名、校验值或来源标识。
+## 参考图
 
-## 4. 布局与组件
+- [10 张风格参考与 10 张中英文海报](assets/style-kit/references/export/)：保留原始文件名及原始字节。
+- [品牌包中的 1–6.png](assets/style-kit/references/brandkit/)：视觉及表达参考。
+- [完整预览索引](assets/style-kit/REFERENCES.md)：逐图链接与预览。
 
-- 使用 8px 间距基准；信息密集的目录与索引可以紧凑，但分组之间保留明显层次。
-- 优先用对齐、细分隔线和留白组织内容。圆角克制（2–6px），避免把治理界面做成装饰性卡片墙。
-- 资产卡片至少清楚呈现名称和类型；有数据时展示来源、可见性、版本或校验状态。
-- 链接、按钮和选中项有明确的悬停、焦点与激活状态；键盘焦点必须可见。
-- 空状态、加载状态与失败状态应说明发生了什么以及可执行的下一步。
+参考图用于观察构图、色彩、笔触、文字节奏与留白；实际品牌署名使用独立 Logo 文件。
 
-## 5. 可信资产与 Agent 协作
+## 通用 Prompt 模板
 
-- 对原始资产保留来源、路径和校验信息；编辑版与原件清晰区分。
-- 只展示调用者有权访问的资料。私有素材不能复制到公开仓库或页面。
-- Agent 输出应区分已验证事实、来源记录和推断；缺失字段明确标示未知，不补造元数据。
-- 操作反馈说明结果，并在重要变更中给出资产身份与版本，方便审阅和追溯。
+以下为持有人提供的原文，将 `[ratio]` 替换为实际比例：
 
-## 6. 来源与维护
+> A museum-quality 岁知社 brand visual in [ratio]. Pristine warm cream background (#F7F5F0). Minimalist composition with generous negative space. One or two refined geometric forms (circle, triangle, horizontal line, arch) in deep charcoal and golden-brown (#8B7355). Subtle hand-drawn brushstroke accent with organic varying thickness. Clean, contemplative, sophisticated. Influenced by Agnes Martin, Hiroshi Sugimoto, Song Dynasty ink painting. No clutter, no decorative noise. World-class poetic restraint.
 
-- 已发布色值、品牌名称、定位与分类取自 [岁知社品牌记录](https://apuch.art/brand?brand=iptrust) 与 [品牌 API](https://apuch.art/api/brands.json) 中的 `iptrust` 记录。
-- `tokens/iptrust.tokens.json` 是可复用的设计令牌；本指南里的布局、交互和字体建议是基于当前品牌资料整理的应用规则，不代表另有一份已发布指南。
-- 更新品牌身份、官方主题色或标识时，以品牌目录/API 最新公开记录为准，并同步更新令牌与示例。
+生成后使用官方 Logo 文件完成品牌署名。中文文案按最终批准稿排版和校对；品牌价值“第一梯队实战智慧”属于品牌表达，不自动构成第三方排名或认证事实。
+
+## Agent 使用入口
+
+1. 读取本文件，再读取 [token](tokens/iptrust.tokens.json) 与 [资产清单](../data/style-kit-assets.json)。
+2. 按用途选择 `usage: logo` 的独立 SVG 或 `usage: reference` 的参考图；`source-archive` 为原始归档。
+3. 公共原始文件地址：`https://raw.githubusercontent.com/ksamint/dsys_iptrust/main/<仓库内路径>`。中文及空格路径按 URL 标准编码。
+4. 保持 Logo 比例、路径与选定色彩；避免将风格参考中的几何形态当成新的正式 Logo。
+
+机器入口：[agent.json](../agent.json)。固定版本复现时，将下载地址中的 `main` 替换为已验收 commit SHA。

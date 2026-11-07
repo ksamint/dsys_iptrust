@@ -1,0 +1,17 @@
+{
+  "brand": "岁知社",
+  "version": "2026-11-07",
+  "repository": "https://github.com/ksamint/dsys_iptrust",
+  "guideline": "IPTRUST/IPTrust_DESIGN.md",
+  "tokens": "IPTRUST/tokens/iptrust.tokens.json",
+  "theme": "data/theme.json",
+  "assets": "data/style-kit-assets.json",
+  "references": "IPTRUST/assets/style-kit/REFERENCES.md",
+  "logos": {
+    "black": "IPTRUST/assets/logos/suizhishe-black.svg",
+    "gold": "IPTRUST/assets/logos/suizhishe-gold.svg",
+    "white": "IPTRUST/assets/logos/suizhishe-white.svg"
+  },
+  "rawBaseUrl": "https://raw.githubusercontent.com/ksamint/dsys_iptrust/main/",
+  "usage": "Read guideline, tokens and asset manifest. Use usage=logo assets for identity, usage=reference for visual reference. Source archives retain original bytes and may contain flagged files."
+}

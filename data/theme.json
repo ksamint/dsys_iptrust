@@ -1,18 +1,21 @@
 {
   "mode": "light",
-  "primary": "#10263D",
-  "accent": "#B99B5B",
-  "secondary": "#C7CCD1",
-  "surface": "#F5F2EA",
+  "primary": "#8B7355",
+  "accent": "#8D723F",
+  "secondary": "#99834E",
+  "surface": "#F7F5F0",
   "paper": "#FFFFFF",
-  "ink": "#17202A",
-  "muted": "#5C6570",
-  "line": "rgba(16, 38, 61, 0.16)",
+  "ink": "#2D2E30",
+  "muted": "#2D2E30",
+  "line": "#8B7355",
   "keywords": [
-    "navy",
-    "platinum",
-    "dark gold",
-    "IP assets",
-    "trust"
+    "真实",
+    "热爱",
+    "利他",
+    "有趣",
+    "长期主义",
+    "博物馆级极简",
+    "东方诗意克制",
+    "西方现代主义精确"
   ]
 }

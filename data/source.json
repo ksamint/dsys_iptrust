@@ -8,5 +8,15 @@
     "IPTRUST/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "IPTRUST/assets/brand-images/logo-set/1.png.zip": "dee0b19400cf696440406c79a1a6ba4557e6f13abe9811019fe7fe57581ef49a",
     "IPTRUST/assets/brand-images/logo-set/岁知社logo.zip": "36a00af1e546f4fa00c82234dc666f4f868c319de3dae6fc7ffe2693c4a94a72"
-  }
+  },
+  "updates": [
+    {
+      "date": "2026-11-07",
+      "authority": "brand owner request",
+      "scope": "Reusable Style Kit, selected references, complete selected logo folder, derived usable vectors",
+      "manifest": "data/style-kit-assets.json",
+      "guide": "IPTRUST/IPTrust_DESIGN.md",
+      "previousPublishedTheme": "data/published-theme-2026-09-19.json"
+    }
+  ]
 }

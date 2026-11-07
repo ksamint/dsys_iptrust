@@ -14,23 +14,26 @@
     "zh": "IP 资产管理、信任索引、品牌源文件治理与 Agent 可读协作。",
     "en": "IP asset stewardship, trust indexing, brand-source governance, and agent-readable collaboration."
   },
-  "primaryGuide": "",
+  "primaryGuide": "IPTRUST/IPTrust_DESIGN.md",
   "theme": {
     "mode": "light",
-    "primary": "#10263D",
-    "accent": "#B99B5B",
-    "secondary": "#C7CCD1",
-    "surface": "#F5F2EA",
+    "primary": "#8B7355",
+    "accent": "#8D723F",
+    "secondary": "#99834E",
+    "surface": "#F7F5F0",
     "paper": "#FFFFFF",
-    "ink": "#17202A",
-    "muted": "#5C6570",
-    "line": "rgba(16, 38, 61, 0.16)",
+    "ink": "#2D2E30",
+    "muted": "#2D2E30",
+    "line": "#8B7355",
     "keywords": [
-      "navy",
-      "platinum",
-      "dark gold",
-      "IP assets",
-      "trust"
+      "真实",
+      "热爱",
+      "利他",
+      "有趣",
+      "长期主义",
+      "博物馆级极简",
+      "东方诗意克制",
+      "西方现代主义精确"
     ]
   },
   "classification": {
@@ -148,8 +151,7 @@
     }
   },
   "notes": {
-    "zh": "",
-    "en": ""
+    "zh": "2026-11-07 按品牌持有人提供的岁知社 Style Kit 更新；GitHub 仓库公开提供参考图、原始 Logo 和可用 SVG。"
   },
   "recordClass": "owned",
   "primaryIndustry": "business-professional-services",
@@ -244,8 +246,21 @@
   "url": "brand.html?brand=iptrust",
   "apiUrl": "api/brands/iptrust.json",
   "status": "placeholder",
-  "guides": [],
-  "tokens": [],
+  "guides": [
+    {
+      "path": "IPTRUST/IPTrust_DESIGN.md",
+      "title": "岁知社 Style Kit（可复用）",
+      "format": "md",
+      "primary": true,
+      "text": "# 岁知社 Style Kit（可复用）\n\n版本：2026-11-07。来源：品牌持有人本次提供的规范与参考素材。本版更新仓库默认视觉方向，取代此前藏青与铂灰的默认方案；历史版本仍可通过 Git 查询。品牌身份沿用 [IPTrust 品牌目录](https://apuch.art/brand?brand=iptrust)，本仓库的更新不会自动回写该网站/API。\n\n## 品牌核心\n\n- 品牌名：岁知社。\n- 调性：真实、热爱、利他、有趣；第一梯队实战智慧；拒绝平庸；长期主义。\n- 视觉目标：东方诗意克制 + 西方现代主义精确。\n\n## 色彩系统\n\n| 角色 | 色值 |\n| --- | --- |\n| 主金色 | `#8B7355` / `#8D723F` / `#99834E` |\n| 背景米白 | `#F7F5F0` / `#FAF8F3` |\n| 深炭灰 | `#2D2E30` / `#1A1A1A` |\n| 留白纯白 | `#FFFFFF` |\n\n复用默认值：金 `#8B7355`、背景 `#F7F5F0`、正文 `#2D2E30`。其余值作为同一系统中的替代色，按单件物料选择。正文优先使用深炭灰；金色用于图形、标志与重点。保留文字与底色的清晰对比。\n\n## 字体风格\n\n- 中文：雅致、克制、类书法或类宋体，字距宽松。\n- 英文：优雅衬线体或干净现代无衬线，诗意分行。\n- 长正文保持可读性，标题与正文分工清楚。Logo 使用原始图形，不用字体重排替代。\n- 未指定唯一字体或授权字体文件；选择项目已有且有使用权的字体。token 中字体栈是技术回退建议，不是新增官方字体指定。\n\n## 视觉语言\n\n- 博物馆级极简，大量留白。\n- 几何形态：圆、三角、水平线、拱门。\n- 柔和渐变与锐利边缘并存。\n- 手绘笔触点缀：有机、粗细变化。\n- 东方诗意克制 + 西方现代主义精确。\n- 单幅优先使用一至两个主要几何形态，围绕一个明确主题组织。文字、形态与笔触各有空间。\n\n## Logo 素材\n\n持有人给出的素材方向：抽象符号图标、竹墨笔触图标、金色笔触图标。原始 Logo 文件完整保存在 [logo-set](assets/brand-images/logo-set/)；参考图与正式 Logo 通过资产清单的 `usage` 区分。\n\nAgent 和设计工具优先使用以下透明背景矢量：\n\n| 版本 | 文件 | 使用建议 |\n| --- | --- | --- |\n| 深炭黑 | [suizhishe-black.svg](assets/logos/suizhishe-black.svg) | 米白、白色等浅底 |\n| 金色 | [suizhishe-gold.svg](assets/logos/suizhishe-gold.svg) | 需要金色标志时，保持清晰对比 |\n| 白色 | [suizhishe-white.svg](assets/logos/suizhishe-white.svg) | 深色背景 |\n\n以上三款由已有黑色 SVG 的矢量路径导出，保持原始造型，去掉底板，分别采用 `#1A1A1A`、`#8B7355`、`#FFFFFF`。这三款是同一标志的色彩版本，并非三个独立图标设计。\n\n原件注意事项：`logo-set/金色/logo_logo.svg` 没有可见图形，已归档但不供使用；`logo-set/蓝色/logo_logo.svg` 含内嵌 PNG，不属于纯矢量。使用上表可用文件。完整来源、文件状态与 SHA-256 见 [资产清单](../data/style-kit-assets.json)。\n\n## 参考图\n\n- [10 张风格参考与 10 张中英文海报](assets/style-kit/references/export/)：保留原始文件名及原始字节。\n- [品牌包中的 1–6.png](assets/style-kit/references/brandkit/)：视觉及表达参考。\n- [完整预览索引](assets/style-kit/REFERENCES.md)：逐图链接与预览。\n\n参考图用于观察构图、色彩、笔触、文字节奏与留白；实际品牌署名使用独立 Logo 文件。\n\n## 通用 Prompt 模板\n\n以下为持有人提供的原文，将 `[ratio]` 替换为实际比例：\n\n> A museum-quality 岁知社 brand visual in [ratio]. Pristine warm cream background (#F7F5F0). Minimalist composition with generous negative space. One or two refined geometric forms (circle, triangle, horizontal line, arch) in deep charcoal and golden-brown (#8B7355). Subtle hand-drawn brushstroke accent with organic varying thickness. Clean, contemplative, sophisticated. Influenced by Agnes Martin, Hiroshi Sugimoto, Song Dynasty ink painting. No clutter, no decorative noise. World-class poetic restraint.\n\n生成后使用官方 Logo 文件完成品牌署名。中文文案按最终批准稿排版和校对；品牌价值“第一梯队实战智慧”属于品牌表达，不自动构成第三方排名或认证事实。\n\n## Agent 使用入口\n\n1. 读取本文件，再读取 [token](tokens/iptrust.tokens.json) 与 [资产清单](../data/style-kit-assets.json)。\n2. 按用途选择 `usage: logo` 的独立 SVG 或 `usage: reference` 的参考图；`source-archive` 为原始归档。\n3. 公共原始文件地址：`https://raw.githubusercontent.com/ksamint/dsys_iptrust/main/<仓库内路径>`。中文及空格路径按 URL 标准编码。\n4. 保持 Logo 比例、路径与选定色彩；避免将风格参考中的几何形态当成新的正式 Logo。\n\n机器入口：[agent.json](../agent.json)。固定版本复现时，将下载地址中的 `main` 替换为已验收 commit SHA。\n"
+    }
+  ],
+  "tokens": [
+    {
+      "path": "IPTRUST/tokens/iptrust.tokens.json",
+      "format": "json"
+    }
+  ],
   "images": [
     {
       "assetId": "iptrust-hero-iptrust-brand-hero-63c7b53792f9",
@@ -1115,7 +1130,7 @@
     }
   ],
   "adobeAssets": [],
-  "logoUrl": "https://media.apuch.art/public/iptrust/iptrust-logo-iptrust-logo-black-4a253cbe0faa/4a253cbe0faa2a0ef62d149ffe2ddf8e6bac179bd964b767673baa3ec5386b64/original.png",
+  "logoUrl": "https://raw.githubusercontent.com/ksamint/dsys_iptrust/main/IPTRUST/assets/logos/suizhishe-gold.svg",
   "assetKit": {
     "assetKey": "iptrust",
     "endpoints": {
@@ -1511,58 +1526,53 @@
     }
   },
   "agent": {
-    "entry": "https://apuch.art/agent.json",
-    "mcp": "https://apuch.art/mcp",
-    "recommendedTool": "get_guideline",
-    "arguments": {
-      "assetKey": "iptrust"
-    },
-    "conventions": {
-      "primaryNameField": "mainName",
-      "primaryLanguageField": "mainLanguage",
-      "exactColorField": "theme",
-      "canonicalLogoField": "logoUrl",
-      "publicAssetField": "images",
-      "provenanceField": "sources"
-    }
+    "entry": "https://raw.githubusercontent.com/ksamint/dsys_iptrust/main/agent.json",
+    "guideline": "https://raw.githubusercontent.com/ksamint/dsys_iptrust/main/IPTRUST/IPTrust_DESIGN.md"
   },
   "moodboard": {
     "colors": [
       {
-        "key": "primary",
-        "value": "#10263D"
+        "key": "gold",
+        "value": "#8B7355"
       },
       {
-        "key": "accent",
-        "value": "#B99B5B"
+        "key": "gold-alternate",
+        "value": "#8D723F"
       },
       {
-        "key": "secondary",
-        "value": "#C7CCD1"
+        "key": "gold-light",
+        "value": "#99834E"
       },
       {
-        "key": "surface",
-        "value": "#F5F2EA"
+        "key": "cream",
+        "value": "#F7F5F0"
       },
       {
-        "key": "paper",
+        "key": "cream-alternate",
+        "value": "#FAF8F3"
+      },
+      {
+        "key": "charcoal",
+        "value": "#2D2E30"
+      },
+      {
+        "key": "charcoal-deep",
+        "value": "#1A1A1A"
+      },
+      {
+        "key": "white",
         "value": "#FFFFFF"
-      },
-      {
-        "key": "ink",
-        "value": "#17202A"
-      },
-      {
-        "key": "muted",
-        "value": "#5C6570"
       }
     ],
     "keywords": [
-      "navy",
-      "platinum",
-      "dark gold",
-      "IP assets",
-      "trust"
+      "真实",
+      "热爱",
+      "利他",
+      "有趣",
+      "长期主义",
+      "博物馆级极简",
+      "东方诗意克制",
+      "西方现代主义精确"
     ],
     "images": [
       {
@@ -1914,5 +1924,12 @@
     "github": "https://github.com/ksamint/tableai_designaha/tree/main/IPTRUST",
     "folder": "IPTRUST"
   },
-  "designSystemUrl": "https://github.com/ksamint/dsys_iptrust"
+  "designSystemUrl": "https://github.com/ksamint/dsys_iptrust",
+  "styleKit": {
+    "version": "2026-11-07",
+    "source": "owner-provided",
+    "guide": "https://raw.githubusercontent.com/ksamint/dsys_iptrust/main/IPTRUST/IPTrust_DESIGN.md",
+    "assets": "https://raw.githubusercontent.com/ksamint/dsys_iptrust/main/data/style-kit-assets.json",
+    "agent": "https://raw.githubusercontent.com/ksamint/dsys_iptrust/main/agent.json"
+  }
 }
